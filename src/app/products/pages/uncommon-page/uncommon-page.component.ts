@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { interval, tap } from 'rxjs';
 
 @Component({
-  selector: 'app-uncommon-page',
+  selector: 'products-uncommon-page',
   templateUrl: './uncommon-page.component.html',
   styleUrls: ['./uncommon-page.component.css']
 })
@@ -18,6 +18,7 @@ export class UncommonPageComponent {
     'male': 'Sr.',
     'female': 'Sra.'
   }
+
   changeClient():void {
     if (this.name === 'Cesar') {
       this.name = 'Banina';
